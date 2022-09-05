@@ -1,14 +1,11 @@
 .App {
   text-align: center;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- justify-content: center;
+
  background-image: url("../public/pizza-g3c2183f4e_1920.jpg");
  background-repeat: no-repeat;
   background-size: cover;
- height: 100vh;
+ min-height: 100vh;
 }
 
 

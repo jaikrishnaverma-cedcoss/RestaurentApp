@@ -1,4 +1,4 @@
-{
+let databases={
     "restaurants": [
         {
             "id": 1,
@@ -412,3 +412,4 @@
         }
     ]
 }
+export default databases;

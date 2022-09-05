@@ -24,13 +24,17 @@ class Login extends Component {
     }
     LoginHandler=event=>{
         let flag=-1;
-        this.state.Credentials.map((obj,i)=>{
+        this.props.Credentials.map((obj,i)=>{
             if(obj.username===this.state.tmpUsername && obj.password===this.state.tmpPassword)
             flag=i
             return i
         })
         if(flag!==-1)
-        this.setState({SessionId:flag},()=>this.setState({notify:"Logged IN."}))
+        this.setState({SessionId:flag},()=>
+        {
+            this.setState({notify:"Logged IN."})
+            this.props.auth(this.state.SessionId)
+    })
         else
          this.setState({notify:"Invalid Username Or Password"})
     }
@@ -39,10 +43,15 @@ class Login extends Component {
         {
             let obj={username:this.state.tmpUsername,password:this.state.tmpPassword,contact:this.state.tmpContact}
             this.state.Credentials.push(obj)
+            this.props.SignupHandler(obj)
             this.setState({Credentials:this.state.Credentials},()=>{
                 console.log(this.state.Credentials)
                 this.setState({notify:"Signup Successfully!"})
             })
+        }
+        else{
+
+            this.setState({notify:"fill all details!"})
         }
     }
     render() { 

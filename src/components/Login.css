@@ -1,3 +1,11 @@
+ .App
+ {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  justify-content: center;
+ }
+ 
  .login{
     width:60%;
     height: 70%;
@@ -39,11 +47,11 @@
    .sign .form{
       margin-top: 3%;
    }
-   .sign .form input
+  .form input
    {
-      padding: 0px;
-      padding-left: 5%;
-      font-size: 16px;
+      padding: 0px !important;
+      padding-left: 5% !important;
+      font-size: 16px !important;
    }
    .sign .form label
    {
