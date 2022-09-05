@@ -1,0 +1,63 @@
+ .login{
+    width:60%;
+    height: 70%;
+    padding: 5% 1%;
+ max-width: 300px;
+ background-image: url("../../public/background-g9a0971efc_1920.jpg");
+ border-radius: 5px 30px;
+ font-family: 'Sofia';font-size: 22px;
+ }
+ .login #logo
+ {
+  width: 100px;
+ }
+ .form{
+   margin-top: 10%;
+ }
+ .foot{
+   width: 100%;
+   margin-top: 3%;
+ }
+ .foot button{
+   float: right;
+ }
+ ._2XBDTIVigBJDybhZvL-hU3,._2vh2GgcZ7Hy6cU_kvl2ZZ4 a {
+   width: 100% !important;
+   }
+  
+   .foot{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+   .foot p{
+      font-size: 13px;
+   }
+   .linker{
+    font-size: 15px;
+   }
+   .sign .form{
+      margin-top: 3%;
+   }
+   .sign .form input
+   {
+      padding: 0px;
+      padding-left: 5%;
+      font-size: 16px;
+   }
+   .sign .form label
+   {
+      font-size: 16px;
+   }
+   p{
+  margin-left: 3%;
+   }
+ .form input::placeholder
+   {
+      color: pink;
+   }
+   .notify{
+      font-weight: 900;
+      color: #6067ff;
+      text-decoration:overline black;
+   }
