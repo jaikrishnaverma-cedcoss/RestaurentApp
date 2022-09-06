@@ -19,7 +19,7 @@ function HomePage(props) {
                     {
                         modified_collection.map((row) =>
                             <div className="row carder" style={{ width: "100%" }}>
-                                {row.map(col => (<div className="col" onClick={()=>props.onProduct(parseInt(col.id))}>
+                                {row.map(col => (<div className="col" onClick={() => props.onProduct(parseInt(col.id))}>
                                     <h3>{col.name}</h3>
                                     <h4>{`Cuisine Type: ${col.cuisine_type}`}</h4>
                                     <p>{`Neighborhood: ${col.neighborhood}`}</p>
