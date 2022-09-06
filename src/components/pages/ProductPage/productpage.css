@@ -1,0 +1,60 @@
+.boxcard{
+    padding:2% 1%;
+}
+
+.boxcard .row img{
+   max-width: 40%;
+   border-radius: 10px;
+}
+.boxcard p{
+    font-size: 20px;
+    color:yellow
+}
+.span{
+    align-items: center;
+    font-size: 14px;
+}
+.span p{
+
+    font-size: 14px;
+}
+.data p{
+    text-align: left;
+}
+.data h3{
+    width: 50%;
+    text-align: left;
+}
+.otherhalf{
+    width: 50%;
+}
+.reviews{
+    /* background-color: white; */
+    margin-top: 1%;
+    border-radius: 5px;
+}
+.reviews p{
+    color: black;
+}
+.reviews .head{
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.reviews table{
+    background-color: rgba(255, 255, 255, 0.819);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:rgb(0, 0, 0);
+}
+
+.reviews td .reviewn{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 6px 10px;
+    justify-content: center;
+}
+.comments{
+    font-size: 14px !important;
+    color: rgb(29, 29, 29) !important;
+    text-align: left;
+}

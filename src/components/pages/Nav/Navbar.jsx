@@ -5,8 +5,8 @@ function Navbar(props) {
     return ( 
         <>
         <div className="nav" style={{width:"98%",position:"fixed",top:"0",zIndex:"100"}}>
-        <span className='row flexAIC' style={{width:"17%"}}><i className="fa fa-bars hamburger" aria-hidden="true"></i> <img style={{marginLeft:"6%"}} src="logoinsta.webp"/></span>
-        {/* <img id="gol" src="gol.png" alt="" /> */}
+        <span className='row flexAIC' onClick={()=>props.onProduct(-1)} style={{width:"17%"}}><i className="fa fa-bars hamburger" aria-hidden="true"></i> <img style={{marginLeft:"6%"}} alt="logo here" src="logoinsta.webp"/></span>
+        {/* <img id="gol" alt="dfs" src="gol.png" alt="" /> */}
         <div className="searchbox">
             <input type="text" onChange={props.FindData} value={props.searchString} placeholder="Search products, stores, and recipes" /><i class="fa fa-search" aria-hidden="true"></i>
         </div>

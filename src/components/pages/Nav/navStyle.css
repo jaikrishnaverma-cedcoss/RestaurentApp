@@ -1,3 +1,6 @@
+.App{
+    justify-content: flex-start !important;
+}
 .nav
 {
     background-color: #09624B;
