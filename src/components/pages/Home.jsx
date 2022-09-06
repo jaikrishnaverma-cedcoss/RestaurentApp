@@ -4,7 +4,6 @@ import Header from './Header/Header';
 import HomePage from './Homepage/homepage';
 import databases from '../../Database/test';
 import ProductPage from './ProductPage/ProductPage';
-import './home.css'
 class Home extends Component {
     constructor(props) {
         super(props);
